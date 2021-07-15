@@ -7,7 +7,7 @@ As of right now there are only 3 pokemon displayed on the static mockup.html and
 
 ### Step 1
 
-- Build out server to serve the front end.
+- Build out an express server to serve the front end.
 - Create a script for starting the server and for webpack. Run both.
 - Refactor your client to dynamically render from your React files.
 - You will know if you have done this correctly if you see bulbasaur, ivysaur, venasaur.
@@ -18,7 +18,7 @@ As of right now there are only 3 pokemon displayed on the static mockup.html and
 
 ### Step 3
 
-- Create a GET route to display all the pokemon in 'pokemon.json' on the page
+- Create a GET route to display all the pokemon in your database on the page
 - Filter the displayed pokemon to match the type selected in the dropdown menu
 - Re-display all the pokemon on the page when 'Show All' is clicked
 
