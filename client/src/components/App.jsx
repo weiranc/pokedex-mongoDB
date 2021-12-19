@@ -40,11 +40,9 @@ const App = () => {
     })
   }
 
-  // filter data ????
   const filteredData = (e) => {
     setFilter(e.target.value);
     console.log(filter);
-    // getType();
   }
 
   const insertBoxToggle = () => {
@@ -68,10 +66,6 @@ const App = () => {
         console.error(err);
       })
   }
-
-  // const pokeData = filter ? allData.slice().filter(data => {data.type === filter}) : allData;
-
-  // console.log('pokeData', pokeData);
 
   return (
     <div>
@@ -129,7 +123,6 @@ const App = () => {
         <PokemonList pokedex={allData} getAll={getAll}/>
       </div>
     </div>
-
   )
 }
 
